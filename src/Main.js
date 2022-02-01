@@ -1,8 +1,8 @@
 import React from "react";
 
 class Component extends React.Component{
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
         this.state = {
             count: 0
         }

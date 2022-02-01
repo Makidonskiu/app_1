@@ -27,10 +27,10 @@ const Register = () => {
 
             <Form.Item name="remember" valuePropName="checked" wrapperCol={{ offset: 8, span: 16 }}>
                 <Radio.Group onChange={onChange} value={value} >
-                    <Radio value={1}>A</Radio>
-                    <Radio value={2}>B</Radio>
-                    <Radio value={3}>C</Radio>
-                    <Radio value={4}>D</Radio>
+                    <Radio value={ 1 }>A</Radio>
+                    <Radio value={ 2 }>B</Radio>
+                    <Radio value={ 3 }>C</Radio>
+                    <Radio value={ 4 }>D</Radio>
                 </Radio.Group>
             </Form.Item>   
 
